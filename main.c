@@ -138,9 +138,6 @@ static inline Vector3 create_center_of_mass(Celestial_Body bodies[], size_t size
   Vector3 center_of_mass = VECTOR_3_ZERO;
   double sum_of_masses = 0;
   for (int i = 0; i < size_of_bodies; i++) {
-    if (!bodies[i].radius) {
-      bodies[i].active = false;
-    }
     if (bodies[i].active){
       center_of_mass = Vector3dAdd(center_of_mass, Vector3dScale(bodies[i].position, bodies[i].mass));
       sum_of_masses += bodies[i].mass;
