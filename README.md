@@ -2,7 +2,7 @@
 
 A 3D Newtonian gravity simulator developed in C using the Raylib library.
 
-![Simulation example](https://github.com/Gumaiagu/3D-Gravity/media/example.gif)
+![Simulation example](https://github.com/Gumaiagu/3D-Gravity/blob/main/media/example.gif)
 
 ## Compiling from Source Code
 
