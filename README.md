@@ -6,7 +6,7 @@ A 3D Newtonian gravity simulator developed in C using the Raylib library.
 
 ## Compiling from Source Code
 
-If you are using Linux, simply run `make`, you will need to have the libx11 package installed.
+If you are using Linux, simply run `make`, you will need to have the libx11 and raylib packages installed.
 
 I haven’t tried running this program on a Windows machine or a Mac, so I don’t know how to compile it, but it shouldn’t be too difficult to compile in those cases.
 
